@@ -2,6 +2,7 @@
 Stop slowly googling words you need to spell, quickly spell check and correct words in the terminal.
 
 **- No Internet connection needed, uses builtin linux word list.**
+**- Privately log the misspellings to learn over time.**
 
 ![spell checking words in the terminal](http://i.imgur.com/ej5kDf2.png "spell CLI useage")
 
@@ -12,7 +13,7 @@ Stop slowly googling words you need to spell, quickly spell check and correct wo
 `pip install python-Levenshtein~=0.12 && pip install numpy`
 3. Add the alias to your .bashrc
 `alias spell="python3 <PATH_TO_SPELL>"`
-4. Finished. Now you can spell check one or many words in the terminal
+4. Star this project. Now you can spell check one or many words in the terminal
 
 Default setting it to log any inncorect spelling, so you can go and learn what words you need to learn to spell.
 The default path is `~/spelling_log.txt`
@@ -21,7 +22,7 @@ The default path is `~/spelling_log.txt`
 ## Flags
 
 > - Add the flag `--private` to pause logging on a specific search.
-> - add the flag `--fix` to autocorrect the top suggested result, works best when entering sentances 
+> - Add the flag `--fix` to autocorrect the top suggested result, works best when entering sentences 
 
 ![spell checking sentances in the terminal](http://i.imgur.com/ie1TLKb.png "spell CLI useage: autocorrect")
 
