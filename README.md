@@ -9,8 +9,7 @@ Stop slowly googling words you need to spell, quickly spell check and correct wo
 
 1. Download the spell.py file place it somewhere 
 2. Install the two requirements
-`pip install python-Levenshtein~=0.12`
-`pip install numpy`
+`pip install python-Levenshtein~=0.12 && pip install numpy`
 3. Add the alias to your .bashrc
 `alias spell="python3 <PATH_TO_SPELL>"`
 4. Finished. Now you can spell check one or many words in the terminal
@@ -21,8 +20,8 @@ The default path is `~/spelling_log.txt`
 
 ## Flags
 
-> Add the flag `--private` to pause logging on a specific search.
-> add the flag `--fix` to autocorrect the top suggested result, works best when entering sentances 
+> - Add the flag `--private` to pause logging on a specific search.
+> - add the flag `--fix` to autocorrect the top suggested result, works best when entering sentances 
 
 ![spell checking sentances in the terminal](http://i.imgur.com/ie1TLKb.png "spell CLI useage: autocorrect")
 
