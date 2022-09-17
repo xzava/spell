@@ -1,8 +1,8 @@
 # Simple Terminal Spell Check
 Stop slowly googling words you need to spell, quickly spell check and correct words in the terminal.
 
-**- No Internet connection needed, uses builtin linux word list.**
-**- Privately log the misspellings to learn over time.**
+- **No Internet connection needed, uses builtin linux word list.**
+- **Privately log the misspellings to learn over time.**
 
 ![spell checking words in the terminal](http://i.imgur.com/ej5kDf2.png "spell CLI useage")
 
