@@ -107,3 +107,8 @@ AUTOCORRECT: test your spelling of words you misspelt
 ## Limitations
 
 - Some words are not in the default word list, like `autocorrect` for example. You need to add these to a custom word list
+
+
+## Log format 
+> CSV HEADER: `timestamp,input_text,top_guess,top_score`
+![spelling log format](http://i.imgur.com/U71Yuln.png)
