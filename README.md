@@ -8,7 +8,7 @@ Stop slowly googling words you need to spell, quickly spell check and correct wo
 
 ## Guide
 
-1. Download the spell.py file place it somewhere 
+1. Download the `spell.py` file place it somewhere 
 2. Install the two requirements
 `pip3 install python-Levenshtein~=0.12 && pip3 install numpy`
 3. Add the alias to your .bashrc
