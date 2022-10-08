@@ -23,7 +23,7 @@ The default path is `~/spelling_log.txt`
 
 ## Installer script
 
-```
+```bash
 # https://github.com/xzava/spell/README.md
 cd ~ && wget https://raw.githubusercontent.com/xzava/spell/main/spell.py
 echo 'alias spell="python3 $HOME/spell.py"' >> ~/.bashrc
