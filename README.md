@@ -1,5 +1,7 @@
 # Simple Terminal Spell Check
-Stop slowly googling words you need to spell, quickly spell check and correct words in the terminal.
+> https://github.com/xzava/spell
+
+Stop googling words you need to spell, and quickly spell check and correct words in the terminal.
 
 - **No Internet connection needed, uses builtin linux word list.**
 - **Privately log the misspellings to learn over time.**
@@ -17,6 +19,16 @@ Stop slowly googling words you need to spell, quickly spell check and correct wo
 
 Default setting it to log any inncorect spelling, so you can go and learn what words you need to learn to spell.
 The default path is `~/spelling_log.txt`
+
+
+## Installer script
+
+```
+# https://github.com/xzava/spell/README.md
+cd ~ && wget https://raw.githubusercontent.com/xzava/spell/main/spell.py
+echo 'alias spell="python3 $HOME/spell.py"' >> ~/.bashrc
+pip3 install python-Levenshtein~=0.12 && pip3 install numpy
+```
 
 
 ## Flags
@@ -103,6 +115,8 @@ INCORRECT: mispelt
 AUTOCORRECT: test your spelling of words you misspelt
 
 ```
+
+> Tip: If the word you are looking for is not the first word on the list, retype the correct spelling `spell <correct_spelling>` so you can have the data of what word you were actually looking for
 
 ## Limitations
 
